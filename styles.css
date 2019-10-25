@@ -8,6 +8,8 @@ body {
 img {
     max-width: 100%;
     display: block;
+    float: left;
+    padding: 0 18px 18px o;
 }
 
 .logo {
@@ -21,6 +23,8 @@ img {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 nav {
@@ -49,6 +53,9 @@ nav a {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
 }
 
 .feature {
